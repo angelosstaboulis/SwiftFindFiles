@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D60600A126ACBCF8003377B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60600A026ACBCF8003377B0 /* AppDelegate.swift */; };
+		D60600A326ACBCF8003377B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60600A226ACBCF8003377B0 /* ViewController.swift */; };
+		D60600A526ACBCFB003377B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60600A426ACBCFB003377B0 /* Assets.xcassets */; };
+		D60600A826ACBCFB003377B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60600A626ACBCFB003377B0 /* Main.storyboard */; };
+		D60600B426ACBCFB003377B0 /* SwiftFindFilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60600B326ACBCFB003377B0 /* SwiftFindFilesTests.swift */; };
+		D60600BF26ACBCFB003377B0 /* SwiftFindFilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60600BE26ACBCFB003377B0 /* SwiftFindFilesUITests.swift */; };
+		D60600D526ACC0D1003377B0 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60600D426ACC0D1003377B0 /* MainWindow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D60600B026ACBCFB003377B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D606009526ACBCF8003377B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D606009C26ACBCF8003377B0;
+			remoteInfo = SwiftFindFiles;
+		};
+		D60600BB26ACBCFB003377B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D606009526ACBCF8003377B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D606009C26ACBCF8003377B0;
+			remoteInfo = SwiftFindFiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D606009D26ACBCF8003377B0 /* SwiftFindFiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFindFiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60600A026ACBCF8003377B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D60600A226ACBCF8003377B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D60600A426ACBCFB003377B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D60600A726ACBCFB003377B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D60600A926ACBCFB003377B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60600AA26ACBCFB003377B0 /* SwiftFindFiles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftFindFiles.entitlements; sourceTree = "<group>"; };
+		D60600AF26ACBCFB003377B0 /* SwiftFindFilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFindFilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60600B326ACBCFB003377B0 /* SwiftFindFilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFindFilesTests.swift; sourceTree = "<group>"; };
+		D60600B526ACBCFB003377B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60600BA26ACBCFB003377B0 /* SwiftFindFilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFindFilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60600BE26ACBCFB003377B0 /* SwiftFindFilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFindFilesUITests.swift; sourceTree = "<group>"; };
+		D60600C026ACBCFB003377B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60600D426ACC0D1003377B0 /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D606009A26ACBCF8003377B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60600AC26ACBCFB003377B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60600B726ACBCFB003377B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D606009426ACBCF8003377B0 = {
+			isa = PBXGroup;
+			children = (
+				D606009F26ACBCF8003377B0 /* SwiftFindFiles */,
+				D60600B226ACBCFB003377B0 /* SwiftFindFilesTests */,
+				D60600BD26ACBCFB003377B0 /* SwiftFindFilesUITests */,
+				D606009E26ACBCF8003377B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D606009E26ACBCF8003377B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D606009D26ACBCF8003377B0 /* SwiftFindFiles.app */,
+				D60600AF26ACBCFB003377B0 /* SwiftFindFilesTests.xctest */,
+				D60600BA26ACBCFB003377B0 /* SwiftFindFilesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D606009F26ACBCF8003377B0 /* SwiftFindFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D60600D926ACC2EF003377B0 /* Interface */,
+				D60600D026ACC09F003377B0 /* Window */,
+				D60600CF26ACC08F003377B0 /* ViewController */,
+				D60600A026ACBCF8003377B0 /* AppDelegate.swift */,
+				D60600A926ACBCFB003377B0 /* Info.plist */,
+				D60600AA26ACBCFB003377B0 /* SwiftFindFiles.entitlements */,
+			);
+			path = SwiftFindFiles;
+			sourceTree = "<group>";
+		};
+		D60600B226ACBCFB003377B0 /* SwiftFindFilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D60600B326ACBCFB003377B0 /* SwiftFindFilesTests.swift */,
+				D60600B526ACBCFB003377B0 /* Info.plist */,
+			);
+			path = SwiftFindFilesTests;
+			sourceTree = "<group>";
+		};
+		D60600BD26ACBCFB003377B0 /* SwiftFindFilesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D60600BE26ACBCFB003377B0 /* SwiftFindFilesUITests.swift */,
+				D60600C026ACBCFB003377B0 /* Info.plist */,
+			);
+			path = SwiftFindFilesUITests;
+			sourceTree = "<group>";
+		};
+		D60600CF26ACC08F003377B0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D60600A226ACBCF8003377B0 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D60600D026ACC09F003377B0 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				D60600D426ACC0D1003377B0 /* MainWindow.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		D60600D926ACC2EF003377B0 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D60600A426ACBCFB003377B0 /* Assets.xcassets */,
+				D60600A626ACBCFB003377B0 /* Main.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D606009C26ACBCF8003377B0 /* SwiftFindFiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60600C326ACBCFB003377B0 /* Build configuration list for PBXNativeTarget "SwiftFindFiles" */;
+			buildPhases = (
+				D606009926ACBCF8003377B0 /* Sources */,
+				D606009A26ACBCF8003377B0 /* Frameworks */,
+				D606009B26ACBCF8003377B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftFindFiles;
+			productName = SwiftFindFiles;
+			productReference = D606009D26ACBCF8003377B0 /* SwiftFindFiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D60600AE26ACBCFB003377B0 /* SwiftFindFilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60600C626ACBCFB003377B0 /* Build configuration list for PBXNativeTarget "SwiftFindFilesTests" */;
+			buildPhases = (
+				D60600AB26ACBCFB003377B0 /* Sources */,
+				D60600AC26ACBCFB003377B0 /* Frameworks */,
+				D60600AD26ACBCFB003377B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60600B126ACBCFB003377B0 /* PBXTargetDependency */,
+			);
+			name = SwiftFindFilesTests;
+			productName = SwiftFindFilesTests;
+			productReference = D60600AF26ACBCFB003377B0 /* SwiftFindFilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D60600B926ACBCFB003377B0 /* SwiftFindFilesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60600C926ACBCFB003377B0 /* Build configuration list for PBXNativeTarget "SwiftFindFilesUITests" */;
+			buildPhases = (
+				D60600B626ACBCFB003377B0 /* Sources */,
+				D60600B726ACBCFB003377B0 /* Frameworks */,
+				D60600B826ACBCFB003377B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60600BC26ACBCFB003377B0 /* PBXTargetDependency */,
+			);
+			name = SwiftFindFilesUITests;
+			productName = SwiftFindFilesUITests;
+			productReference = D60600BA26ACBCFB003377B0 /* SwiftFindFilesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D606009526ACBCF8003377B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D606009C26ACBCF8003377B0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D60600AE26ACBCFB003377B0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D606009C26ACBCF8003377B0;
+					};
+					D60600B926ACBCFB003377B0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D606009C26ACBCF8003377B0;
+					};
+				};
+			};
+			buildConfigurationList = D606009826ACBCF8003377B0 /* Build configuration list for PBXProject "SwiftFindFiles" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D606009426ACBCF8003377B0;
+			productRefGroup = D606009E26ACBCF8003377B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D606009C26ACBCF8003377B0 /* SwiftFindFiles */,
+				D60600AE26ACBCFB003377B0 /* SwiftFindFilesTests */,
+				D60600B926ACBCFB003377B0 /* SwiftFindFilesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D606009B26ACBCF8003377B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60600A526ACBCFB003377B0 /* Assets.xcassets in Resources */,
+				D60600A826ACBCFB003377B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60600AD26ACBCFB003377B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60600B826ACBCFB003377B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D606009926ACBCF8003377B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60600A326ACBCF8003377B0 /* ViewController.swift in Sources */,
+				D60600D526ACC0D1003377B0 /* MainWindow.swift in Sources */,
+				D60600A126ACBCF8003377B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60600AB26ACBCFB003377B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60600B426ACBCFB003377B0 /* SwiftFindFilesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60600B626ACBCFB003377B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60600BF26ACBCFB003377B0 /* SwiftFindFilesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D60600B126ACBCFB003377B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D606009C26ACBCF8003377B0 /* SwiftFindFiles */;
+			targetProxy = D60600B026ACBCFB003377B0 /* PBXContainerItemProxy */;
+		};
+		D60600BC26ACBCFB003377B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D606009C26ACBCF8003377B0 /* SwiftFindFiles */;
+			targetProxy = D60600BB26ACBCFB003377B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D60600A626ACBCFB003377B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60600A726ACBCFB003377B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D60600C126ACBCFB003377B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D60600C226ACBCFB003377B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D60600C426ACBCFB003377B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftFindFiles/SwiftFindFiles.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SwiftFindFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftFindFiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D60600C526ACBCFB003377B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftFindFiles/SwiftFindFiles.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SwiftFindFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftFindFiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D60600C726ACBCFB003377B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = SwiftFindFilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftFindFilesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftFindFiles.app/Contents/MacOS/SwiftFindFiles";
+			};
+			name = Debug;
+		};
+		D60600C826ACBCFB003377B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = SwiftFindFilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftFindFilesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftFindFiles.app/Contents/MacOS/SwiftFindFiles";
+			};
+			name = Release;
+		};
+		D60600CA26ACBCFB003377B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = SwiftFindFilesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftFindFilesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftFindFiles;
+			};
+			name = Debug;
+		};
+		D60600CB26ACBCFB003377B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = SwiftFindFilesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftFindFilesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftFindFiles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D606009826ACBCF8003377B0 /* Build configuration list for PBXProject "SwiftFindFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60600C126ACBCFB003377B0 /* Debug */,
+				D60600C226ACBCFB003377B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60600C326ACBCFB003377B0 /* Build configuration list for PBXNativeTarget "SwiftFindFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60600C426ACBCFB003377B0 /* Debug */,
+				D60600C526ACBCFB003377B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60600C626ACBCFB003377B0 /* Build configuration list for PBXNativeTarget "SwiftFindFilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60600C726ACBCFB003377B0 /* Debug */,
+				D60600C826ACBCFB003377B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60600C926ACBCFB003377B0 /* Build configuration list for PBXNativeTarget "SwiftFindFilesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60600CA26ACBCFB003377B0 /* Debug */,
+				D60600CB26ACBCFB003377B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D606009526ACBCF8003377B0 /* Project object */;
+}
